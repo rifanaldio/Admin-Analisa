@@ -1,0 +1,52 @@
+{
+  "name": "vue-argon-dashboard",
+  "version": "2.6.12",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --fix",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^2.0.6",
+    "bootstrap": "4.6.0",
+    "bootstrap-vue": "2.15.0",
+    "chart.js": "2.9.4",
+    "core-js": "3.6.5",
+    "datatables.net-bs4": "^1.11.3",
+    "datatables.net-buttons-bs4": "^2.0.1",
+    "emailjs-com": "^2.6.4",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "nouislider": "14.6.0",
+    "resource": "^0.8.1",
+    "vee-validate": "^3.4.14",
+    "vue": "^2.6.14",
+    "vue-recaptcha": "^2.0.1",
+    "vue-resource": "^1.5.3",
+    "vue-router": "^3.2.0",
+    "vue-sweetalert2": "^5.0.2",
+    "vue-toastification": "1.7.11",
+    "vue2-transitions": "^0.2.3",
+    "vuejs-datepicker": "^1.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-plugin-router": "*",
+    "@vue/cli-service": "*",
+    "@vue/compiler-sfc": "*",
+    "@vue/eslint-config-prettier": "*",
+    "babel-eslint": "*",
+    "babel-plugin-component": "*",
+    "eslint": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-vue": "*",
+    "node-sass": "5.0.0",
+    "prettier": "2.2.1",
+    "sass-loader": "10.1.1",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
