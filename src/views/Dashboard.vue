@@ -10,37 +10,41 @@
     >
       <div class="row">
         <div class="col-xl-6 col-lg-10">
-          <stats-card
-            title="Ticket Dibuat"
-            type="gradient-red"
-            sub-title="30"
-            icon="ni ni-active-40"
-            class="mb-4 mb-xl-0"
-          >
-            <template v-slot:footer>
-              <span class="text-success mr-2">
-                <i class="fa fa-arrow-up"></i> 3.48%
-              </span>
-              <span class="text-nowrap">Bulan Terakhir</span>
-            </template>
-          </stats-card>
+          <router-link to="/ticket">
+            <stats-card
+              title="Ticket Dibuat"
+              type="gradient-red"
+              sub-title="30"
+              icon="ni ni-active-40"
+              class="mb-4 mb-xl-0"
+            >
+              <template v-slot:footer>
+                <span class="text-success mr-2">
+                  <i class="fa fa-arrow-up"></i> 3.48%
+                </span>
+                <span class="text-nowrap">Bulan Terakhir</span>
+              </template>
+            </stats-card>
+          </router-link>
         </div>
 
         <div class="col-xl-6 col-lg-10">
-          <stats-card
-            title="Ticket Selesai"
-            type="gradient-info"
-            sub-title="49,65%"
-            icon="ni ni-send"
-            class="mb-4 mb-xl-0"
-          >
-            <template v-slot:footer>
-              <span class="text-success mr-2">
-                <i class="fa fa-arrow-up"></i> 54.8%
-              </span>
-              <span class="text-nowrap">Since last month</span>
-            </template>
-          </stats-card>
+          <router-link to="/ticket">
+            <stats-card
+              title="Ticket Selesai"
+              type="gradient-info"
+              sub-title="49,65%"
+              icon="ni ni-send"
+              class="mb-4 mb-xl-0"
+            >
+              <template v-slot:footer>
+                <span class="text-success mr-2">
+                  <i class="fa fa-arrow-up"></i> 54.8%
+                </span>
+                <span class="text-nowrap">Since last month</span>
+              </template>
+            </stats-card>
+          </router-link>
         </div>
       </div>
     </base-header>
